@@ -1,6 +1,6 @@
 # GINGSHAN
 
-欢迎来到我的主页\~\~
+WELCOME\~
 
 <!-- .slide -->
 
