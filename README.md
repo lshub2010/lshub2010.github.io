@@ -1,168 +1,123 @@
-# Hydeout
+# Hydejack
+[![Gem Version](https://badge.fury.io/rb/jekyll-theme-hydejack.svg)](https://badge.fury.io/rb/jekyll-theme-hydejack)
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and 4.x and adds new functionality.
+**Hydejack** is a Jekyll theme with JavaScript powers, combining the best of static sites and modern web apps.
+It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
+page-load speed or SEO.
 
-![Desktop](/_screenshots/1.png?raw=true)
-<img alt="Mobile home page" src="/_screenshots/2.png?raw=true" width="300px" />
-<img alt="Mobile post page" src="/_screenshots/3.png?raw=true" width="300px" />
+> Your presence on the web — A [blog], a [portfolio] and a [resume].
 
-### Usage
+**Hydejack** aims to be the complete package for professionals on the web.
+It features a blog suitable for both prose and technical documentation,
+a showcase for your projects, and a resume that fits with the rest of the design.
 
-Hydeout is available as the `jekyll-theme-hydeout` Ruby Gem.
-Add `gem "jekyll-theme-hydeout", "~> 4.1"` to your Gemfile and run
-`bundle install`.
+![Screenshot](https://qwtel.com/assets/img/projects/default.jpg)
 
-If you're installing on Github pages, you may also have to add
-`remote_theme: fongandrew/hydeout` to your `_config.yml`. [See the Github
-instructions for more details.](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)
+## Demo
+It's best to just [see it in action](https://qwtel.com/hydejack/).
 
-Hydeout uses pagination, so if you have an `index.md`, you'll need to swap
-it with an `index.html` that uses the `index` layout:
+## Features
+Both versions include these features:
 
-```
----
-layout: index
-title: Home
----
-```
+* Full in-app page loading, powered by [hy-push-state]
+* A customizable sidebar that turns into a drawer menu on mobile, powered by [hy-drawer]
+* Advanced FLIP animations, inspired by Material Design
+* Good [Google PageSpeed Score][gpss][^3]
+* Higher *perceived speed* thanks to content pre-fetching
+* [Syntax highlighting][syntax], powered by [Rouge]
+* [LaTeX math blocks][latex], powered by [KaTeX]
+* Change the wording of built-in strings and possibly translate in other languages
+* Support for categories and tags
+* Built-in icons for many social networks
+* Simple and semantic HTML — can be viewed even with text-based browsers
+* Author section below each article and support for multiple authors
+* Progressive enhancement — sacrifice features, not content
+* Google Analytics and Google Fonts support
+* Disqus comments
+* Print layout — Used to render Hydejack's [PDF documentation][pdf]
+* Blog layout via `jekyll-paginate` (optional)
+* SEO meta tags via `jekyll-seo-tag` (optional)
+* Github avatars via `jekyll-avatar` (optional)
+* Gist support via `jekyll-gist` (optional)
 
-You'll also need to add a setting to `_config.yml` telling Jekyll how many posts
-to include per page (e.g. `paginate: 5`).
+## Documentation
+Hydejack is well documented. You can read the docs [on the Jekyll site][docs], or [on GitHub][wiki], or [download the PDF][pdf].
 
-### Keep It Simple
+## Download
+There are two versions of **Hydejack**: The *free version* includes basic blogging functionality,
+as did previous versions of the theme.
+The *PRO version* includes additional features for professionals:
+A [portfolio], a [resume] layout and a [welcome] page to feature your favorite projects and posts.
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
+This table details what is and isn't included in each respective version.
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+|                                     | Free                                   | PRO                                          |
+|:------------------------------------|:--------------------------------------:|:--------------------------------------------:|
+| Blog                                | &#x2714;                               | &#x2714;                                     |
+| [Features][feat]                    | &#x2714;                               | &#x2714;                                     |
+| [Portfolio] Layout                  |                                        | &#x2714;                                     |
+| [Resume] Layout                     |                                        | &#x2714;                                     |
+| [Welcome] Layout                    |                                        | &#x2714;                                     |
+| [Newsletter Box][news]              |                                        | &#x2714;                                     |
+| [Custom Forms][forms]               |                                        | &#x2714;                                     |
+| No Hydejack Branding                |                                        | &#x2714;                                     |
+| License                             | [GPL-3.0][license]                     | [PRO]                                        |
+| Source                              | [GitHub][src]                          | Included                                     |
+| Support[^1]                         | No                                     | No                                           |
+| Price                               | Free                                   | $29                                          |
+|                                     | [**Download**][kit]                    | [**Buy Now - $29**][buy] [^2]                |
+{:.stretch-table}
 
-### Customization
+[^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
+      You understand that using Jekyll requires technical know-how, and is NOT comparable to Wordpress in terms of usability.
+      Please use the free version to confirm that Hydejack works for you.
+      For more, see the [PRO] license.
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
+[^2]: Transactions secured by [Stripe](https://stripe.com). Downloads handled by [Simple Goods](https://simplegoods.co/).  
 
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-fg-color: white !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
+[^3]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.  
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+~~~
+ __  __                __                                     __
+/\ \/\ \              /\ \             __                    /\ \
+\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
+ \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
+  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
+   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
+    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
+                /\___/                \ \____/
+                \/__/                  \/___/
+~~~
 
-```scss
----
-# Jekyll needs front matter for SCSS files
----
+[blog]: https://qwtel.com/hydejack/blog/
+[portfolio]: https://qwtel.com/hydejack/variations/
+[resume]: https://qwtel.com/hydejack/resume/
+[download]: https://qwtel.com/download/
+[welcome]: https://qwtel.com/hydejack/
+[forms]: https://qwtel.com/hydejack/forms-by-example/
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
+[feat]: https://qwtel.com/hydejack/#features
+[news]: https://qwtel.com/hydejack/#newsletter-subscription-box
+[syntax]: https://qwtel.com/hydejack/#syntax-highlighting
+[latex]: https://qwtel.com/hydejack/#latex-math-blocks
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
+[license]: LICENSE.md
+[pro]: licenses/PRO.md
+[docs]: docs/7.5.2/index.md
 
-You can see the full set of partials you can replace in the
-[`_includes`](_includes) folder, but there are a few worth noting:
+[kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.2.zip
+[src]: https://github.com/qwtel/hydejack
+[git]: https://github.com/qwtel/hydejack-starter-kit
+[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
+[buy]: https://app.simplegoods.co/i/AQTTVBOE
 
-* `_includes/copyright.html` - Insert your own copyright here.
+[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fqwtel.com%2Fhydejack%2F
+[wiki]: https://github.com/qwtel/hydejack/blob/master/docs/7.5.2/index.md
+[pdf]: https://github.com/qwtel/hydejack/releases/download/v7.5.2/Documentation._.Hydejack.pdf
+[hy-push-state]: https://qwtel.com/hy-push-state/
+[hy-drawer]: https://qwtel.com/hy-drawer/
+[rouge]: http://rouge.jneen.net
+[katex]: https://khan.github.io/KaTeX/
+[tinyletter]: https://tinyletter.com/
 
-* `_includes/custom-head.html` - Insert custom head tags (e.g. to load your
-  own stylesheets)
-
-* `_includes/custom-foot.html` - Insert custom elements at the end of the
-  body (e.g. for custom JS)
-
-* `_includes/custom-nav-links.html` - Additional nav links to insert at the
-  end of the list of links in the sidebar.
-
-  Pro-tip: The `nav`s in the sidebar are flexboxes. Use the `order` property
-  to order your links.
-
-* `_includes/custom-icon-links.html`- Additional icon links to insert at the
-  end of the icon links at the bottom of the sidebar. You can use the `order`
-  property to re-order.
-
-* `_includes/favicons.html` - Replace references to `favicon.ico` and
-  `favicon.png` with your own favicons references.
-
-* `_includes/font-includes.html` - The Abril Fatface font used for the site
-  title is loaded here. If you're overriding that font in the CSS, be sure
-  to also remove the font load reference here.
-
-### New Features
-
-* Hydeout adds a new tags page (accessible in the sidebar). Just create a
-  new page with the tags layout:
-
-  ```
-  ---
-  layout: tags
-  title: Tags
-  ---
-  ```
-
-* Hydeout adds a new "category" layout for dedicated category pages.
-  Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar. To create a category page, use the `category` layout"
-
-  ```
-  ---
-  layout: category
-  title: My Category
-  ---
-
-  Description of "My Category"
-  ```
-
-* You can control how pages are sorted by using the `sidebar_sort_order`
-  parameter in the front matter. This works for both category and non-category
-  pages, although non-category pages will always come first. Take a look at
-  [`_includes/sidebar-nav-links.html`](./_includes/sidebar-nav-links.html) if
-  you want to customize this behavior.
-
-  ```
-  ---
-  layout: page
-  title: My page
-  sidebar_sort_order: 123
-  ---
-
-  Some content.
-  ```
-
-* A simple redirect-to-Google search is available. Just create a page with
-  the `search` layout.
-
-  ```
-  ---
-  layout: search
-  title: Google Search
-  ---
-  ```
-
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
-
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
-
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
-
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
-
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+*[FLIP]: First-Last-Invert-Play. A coding technique to achieve performant page transition animations.
