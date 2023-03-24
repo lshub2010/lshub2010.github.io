@@ -1,26 +1,26 @@
-# 星合の空
+# GINGSHAN
 
-欢迎访问我的主页！下面向你介绍一下我吧\~
+欢迎来到我的主页\~
 
 <!-- .slide -->
 
 ## Contact
 
 - Address
-  - **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
+  - **Asia , China , Wenzhou **
 - Site
-  - **<https://wu-kan.cn>**
-- [Resume](https://resume.wu-kan.cn/index.pdf)
+  - **<https://lshub2010.github.io>**
+- [QQ](https://qm.qq.com/cgi-bin/qm/qr?k=BTZyeEOZ5Cu4AlWpCrFyBzQol2yovCcN&noverify=0&personal_qrcode_source=3)
 
 <!-- .slide vertical=true -->
 
-- Phone
-  - **+86 18756280097**
+- QQ
+  - **435347934**
 - WeChat
-  - **Wu-\_-Kan**
+  - **木有啊**
 - E-mail:
-  - **[i[at]wu-kan.cn](mailto:i@wu-kan.cn)**
-  - **[wukan3[at]mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
+  - **[lost_person[at]yeah.net](lost_person@yeah.net)**
+  - **[gaiaaxy[at]yeah.net](gaiaaxy@yeah.net)**
 
 <!-- .slide -->
 
