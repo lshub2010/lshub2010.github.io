@@ -7,7 +7,7 @@
 ## Contact
 
 - Address
-  - **Asia , China , Wenzhou **
+  - ** Asia , China , Wenzhou **
 - Site
   - **<https://lshub2010.github.io>**
 - [QQ](https://qm.qq.com/cgi-bin/qm/qr?k=BTZyeEOZ5Cu4AlWpCrFyBzQol2yovCcN&noverify=0&personal_qrcode_source=3)
@@ -21,9 +21,6 @@
 - E-mail:
   - **[lost_person[at]yeah.net](lost_person@yeah.net)**
   - **[gaiaaxy[at]yeah.net](gaiaaxy@yeah.net)**
-
-<!-- .slide -->
-
 
 <!-- .slide -->
 
