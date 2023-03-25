@@ -13,6 +13,3 @@ accent_image:
   background: '#202020'
   overlay:    false
 ---
-
-
-## Tehsh
