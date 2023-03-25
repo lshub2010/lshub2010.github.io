@@ -2,17 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              SHUBO LIN
+  email:             lost_person@yeah.net
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
+    AWA！ 咬你
 
   # This photo will be used in the about section
   picture:
@@ -26,9 +22,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           mailto:<mail@domain.tld>
+    #twitter:         <username>
+    github:          lshub2010
+    email:           lost_person@yeah.net
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -67,8 +63,8 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              SHUBO LIN
+  email:             lost_person@yeah.net
   about:             |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -76,8 +72,8 @@ author2:
 
     Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+  #twitter:           <username>
+  github:            lshub2010
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'
