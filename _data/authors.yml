@@ -2,8 +2,7 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              SHUBO 
-LIN
+  name:              SHUBO LIN
   email:             lost_person@yeah.net
 
   # Used at the bottom of each page and at the top of the `about` layout
@@ -64,8 +63,7 @@ LIN
 
 # Another author (optional)
 author2:
-  name:              SHUBO 
-LIN
+  name:              SHUBO LIN
   email:             lost_person@yeah.net
   about:             |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
