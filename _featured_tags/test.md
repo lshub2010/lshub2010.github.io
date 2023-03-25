@@ -5,7 +5,7 @@ slug: blog
 menu: true
 order: 3
 description: >
-  Blogs
+  要啥介绍awa
 accent_color: '#268bd2'
 accent_image:
   background: '#202020'
