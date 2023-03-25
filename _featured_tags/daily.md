@@ -8,5 +8,5 @@ description: >
   这里放的是我的日常awa
 accent_color: '#268bd2'
 accent_image:
-  overlay:    false
+  overlay:    true
 ---
