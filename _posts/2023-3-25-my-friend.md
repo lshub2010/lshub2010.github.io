@@ -5,7 +5,9 @@ description: >
   今天我要介绍我的朋友！
 tags: [daily]
 ---
-# MyFriends
+
+# Friends
+
 ---
 ### Zi’xin Wu
 
