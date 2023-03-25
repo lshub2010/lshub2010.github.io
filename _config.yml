@@ -42,7 +42,8 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                SHUBO    LIN
+  name:                SHUBO
+                       LIN
   email:               lost_person@yeah.net
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
