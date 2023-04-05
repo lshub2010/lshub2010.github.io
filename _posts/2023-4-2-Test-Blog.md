@@ -11,6 +11,22 @@ tags: [blog]
 你可以在这里查看有关于我的信息
 如果可以的话来评论哦！
 
+<head>
+    ..
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    ...
+</head>
+<body>
+    ...
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'c590IMTPDiPKF6HjkpiiRR8w-MdYXbMMI',
+            appKey: 'u71fRwnHvZml0CM7N1xO0rOL'
+        })
+    </script>
+</body>
 
 <!-- 来必力City版安装代码 -->
 <div id="lv-container" data-id="city" data-uid="MTAyMC81ODMwNi8zNDc2OQ==">
